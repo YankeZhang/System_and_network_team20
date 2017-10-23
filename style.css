@@ -1,0 +1,72 @@
+/*A css sheet which can be used for the general look of the website.
+Any page-specific style changes were made in <style> tags in the html document(s)
+For example, the <style> tags in index.htm are for style changes specific to the homepage*/
+
+body {
+	background-color: #FFF8DC;
+	margin: 0%;
+    padding: 0;
+}
+
+h1, h2 {
+	text-align:center;
+	font-family: NSimSun;
+	font-size: 85px;
+	margin-bottom: 0;
+	margin-top: 20px;
+}
+
+h2 {
+	font-size: 60px;
+}
+
+hr {
+}
+
+h3 {
+	font-style:italic;
+	text-align: center;
+}
+
+/* shrinks images to a reasonable size
+if you want to upload a bigger image, then just change this */
+img {
+	max-height:200px;
+	max-width:200px;
+	min-height: 150px;
+}
+
+/*styles any unordered lists belonging to the navigation bar*/
+nav > ul {
+	padding-bottom: 10px;
+	padding-top: 10px;
+	list-style-type: none;
+	background-color: #c2c2a3;
+	text-align:center;
+	font-size: medium;
+	margin: 0px 90px 0px 90px;
+}
+
+nav > ul > li {
+	display: inline;
+	padding-right: 50px;
+}
+
+nav a {
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav a:hover {
+	color: purple;
+	text-decoration: underline;
+}
+
+footer {
+	border-top: 1px solid gray;
+	text-align: center;
+	font-size: .8em;
+	line-height: 4em;
+	margin-top: 1em;
+}
